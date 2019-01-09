@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('../fonts/OswaldBold.eot');
+    src: url('../fonts/OswaldBold.eot') format('embedded-opentype'),
+         url('../fonts/OswaldBold.woff2') format('woff2'),
+         url('../fonts/OswaldBold.woff') format('woff'),
+         url('../fonts/OswaldBold.ttf') format('truetype'),
+         url('../fonts/OswaldBold.svg#OswaldBold') format('svg');
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('../fonts/RobotoRegular.eot');
+    src: url('../fonts/RobotoRegular.eot') format('embedded-opentype'),
+         url('../fonts/RobotoRegular.woff2') format('woff2'),
+         url('../fonts/RobotoRegular.woff') format('woff'),
+         url('../fonts/RobotoRegular.ttf') format('truetype'),
+         url('../fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+@font-face {
+    font-family: 'StaatlichesRegular';
+    src: url('../fonts/StaatlichesRegular.eot');
+    src: url('../fonts/StaatlichesRegular.eot') format('embedded-opentype'),
+         url('../fonts/StaatlichesRegular.woff2') format('woff2'),
+         url('../fonts/StaatlichesRegular.woff') format('woff'),
+         url('../fonts/StaatlichesRegular.ttf') format('truetype'),
+         url('../fonts/StaatlichesRegular.svg#StaatlichesRegular') format('svg');
+}
+
+
+
+
+.nav-a, .nav-mob-a, .title, .h2-whatwedo, .send, .blog-title  {
+    font-family: 'StaatlichesRegular';
+}
+.slide__text-heading, .h2-ourteam, .input, .input-message, .blog-author, .blog-company {
+    font-family: 'OswaldBold';
+}
+.slide__text-desc, .text, .p-whatwedo, .h3-ourteam, .blog-p {
+    font-family: 'RobotoRegular';
+}

@@ -1,0 +1,104 @@
+
+.logo-nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #FEC00F;
+}
+.logo-div {
+    width: 210px;
+    height: 80px;
+    background-color: #0E303F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-img-1 {
+    width: 145px;
+    height: 15px;
+}
+.logo-img-2 {
+    width: 15px;
+    height: 15px;
+    margin-bottom: 15px;
+}
+.nav-ul {
+    display: flex;
+}
+.nav-li {
+    padding-right: 35px;
+}
+.nav-a {
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.nav-a:hover {
+    color: #000;
+    
+}
+
+// ----------------------------------------------
+// BURGER
+.burger-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #333B3D;
+    width: 50px;
+    height: 45px;
+    margin-right: 20px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #FEC00F;
+    margin: 6%;
+    transition: 0.4s linear;
+  }
+   
+  .change .bar1 {
+    transform: rotate(-45deg) translate(-8px, 8px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    transform: rotate(45deg) translate(-7px, -8px);
+  }
+  .change {
+    display: flex !important;
+  }
+//   BURGER 
+// --------------------------------------------------------
+// MOB NSVIGTION
+.nav-mob{
+   background-color: #2E2F31;
+   display: none;
+   justify-content: center;
+}
+.nav-mob-ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-mob-li {
+ margin-top: 20px; 
+}
+.nav-mob-a{
+    font-size: 45px;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.9s;
+}
+.nav-mob-a:hover {
+    color: #FEC00F;
+    background-color: #333B3D;
+    border-bottom: #FEC00F solid 3px;
+    font-size: 60px;    
+} 
