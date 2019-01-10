@@ -22,13 +22,16 @@
 .input .input-message{
     border: #5C5C5C solid 1px;
 }
+.send-div {
+    display: flex;
+    justify-content: center;
+}
 .send {
-    margin-left: 15.2%;
     margin-top: 10px;
+    width: 940px;
+    height: 45px;
     border: 0;
     background-color: #FEC00F;
     color: #fff;
-    width: 69.7%;
-    height: 45px;
     text-transform: uppercase;
 } 
